@@ -9,6 +9,8 @@ import UIKit
 
 class secondViewController: UIViewController {
 
+    @IBOutlet weak var firstLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -17,8 +19,9 @@ class secondViewController: UIViewController {
     
     @IBAction func changeColorButtonPressed(_ sender: Any) {
         self.view.backgroundColor = UIColor.blue
+        firstLabel .text = "I did it!"
+        firstLabel .textColor = UIColor.white
     }
-    
     /*
     // MARK: - Navigation
 

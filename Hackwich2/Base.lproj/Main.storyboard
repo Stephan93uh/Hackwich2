@@ -72,7 +72,7 @@
                                     <fontDescription key="titleFontDescription" type="system" pointSize="22"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="changeColorButtonPressed:" destination="x3y-vV-OGk" eventType="touchUpInside" id="O0r-eE-jcw"/>
+                                    <action selector="changeColorButtonPressed:" destination="x3y-vV-OGk" eventType="touchUpInside" id="btX-e5-htm"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -80,6 +80,9 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="YAu-sQ-mqq"/>
+                    <connections>
+                        <outlet property="firstLabel" destination="aX6-0d-FAd" id="gBd-OS-qbu"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eU4-JI-9KL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
