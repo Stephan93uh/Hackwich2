@@ -18,4 +18,7 @@ class ViewController: UIViewController {
         print("Hello World!")
     }
     
+    @IBAction func pressMeButtonP8Pressed(_ sender: Any) {
+        print("I did it!")
+    }
 }
